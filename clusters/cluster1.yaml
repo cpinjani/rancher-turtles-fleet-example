@@ -52,7 +52,7 @@ metadata:
   annotations:
     "helm.sh/resource-policy": keep
 spec: 
-  replicas: 3
+  replicas: 1
   registrationMethod: internal-first
   rolloutStrategy:
     rollingUpdate:
@@ -95,7 +95,7 @@ metadata:
     "helm.sh/resource-policy": keep
 spec:
   clusterName: cluster1
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels: null
   template:
