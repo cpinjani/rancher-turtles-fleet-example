@@ -52,7 +52,7 @@ metadata:
   annotations:
     "helm.sh/resource-policy": keep
 spec: 
-  replicas: 2
+  replicas: 3
   registrationMethod: internal-first
   rolloutStrategy:
     rollingUpdate:
