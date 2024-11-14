@@ -53,6 +53,7 @@ metadata:
     "helm.sh/resource-policy": keep
 spec: 
   replicas: 3
+  registrationMethod: control-plane-endpoint
   rolloutStrategy:
     rollingUpdate:
       maxSurge: 1
